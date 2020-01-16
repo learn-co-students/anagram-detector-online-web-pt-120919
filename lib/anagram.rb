@@ -10,6 +10,6 @@ class Anagram
   def match(ana)
     ana.select {|w| w.split("").sort == word.split("").sort}
   end
-binding.pry 
+#binding.pry 
 
 end
